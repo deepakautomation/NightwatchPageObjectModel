@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="index"
+    errors="0" failures="1" hostname="" id="" package="index" skipped="0"
+    tests="2" time="20.35" timestamp="Sat, 01 Jul 2017 06:17:50 GMT">
+  
+    <testcase name="User is successfully logs in" classname="index" time="8.333" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify User successfully logs in" classname="index" time="12.01" assertions="1">  <failure message="Timed out while waiting for element &lt;//spn[contains(@class,'')]&gt; to be present for 10000 milliseconds.">    at Object.clickElement (C:/Users/dsood/Documents/Verizon/commands/clickElement.js:3:6)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
