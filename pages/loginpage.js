@@ -17,7 +17,7 @@ const LoginPageMethods = {
 };
 
 
-export default {
+module.exports = {
   url: 'https://www.khanacademy.org/',
   commands: [LoginPageMethods],
   elements: {

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="2">
+
+  <testsuite name="index.1"
+    errors="0" failures="2" hostname="" id="" package="index.1" skipped="0"
+    tests="2" time="35.04" timestamp="Mon, 03 Jul 2017 05:00:33 GMT">
+  
+    <testcase name="User is successfully logs in" classname="index.1" time="24.76" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;//a[contains(@class,'signUpLink')]&gt; to be visible for 10000 milliseconds.">    at Object.clickLoginLink (C:/Users/dsood/Documents/Verizon/pages/homepage.js:5:8)
+    at Object.UserIsSuccessfullyLogsIn [as User is successfully logs in] (C:/Users/dsood/Documents/Verizon/tests/index.1.js:12:8)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Verify User successfully logs in" classname="index.1" time="10.28" assertions="1">  <failure message="Timed out while waiting for element &lt;//spn[contains(@class,'')]&gt; to be present for 10000 milliseconds.">    at Object.clickElement (C:/Users/dsood/Documents/Verizon/commands/clickElement.js:3:6)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

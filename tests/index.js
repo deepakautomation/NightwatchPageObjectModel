@@ -1,7 +1,7 @@
 var data = require('../data/testdata.json')
 
 
-export default {
+module.exports = {
   'User is successfully logs in': (client) => {
     const homepage = client.page.homepage();
     const loginpage = client.page.loginpage();

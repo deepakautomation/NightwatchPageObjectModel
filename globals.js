@@ -4,7 +4,7 @@ var reporter = new HtmlReporter({
 	reportsDirectory: __dirname + '/reports'
 });
 
-export default {
+module.exports = {
   waitForConditionTimeout: 10000,
   reporter: reporter.fn
 };
