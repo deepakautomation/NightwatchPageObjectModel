@@ -5,9 +5,9 @@
 
   <testsuite name="index"
     errors="0" failures="1" hostname="" id="" package="index" skipped="0"
-    tests="2" time="19.19" timestamp="Mon, 03 Jul 2017 05:01:58 GMT">
+    tests="2" time="20.67" timestamp="Mon, 03 Jul 2017 10:38:00 GMT">
   
-    <testcase name="User is successfully logs in" classname="index" time="8.831" assertions="5">
+    <testcase name="User is successfully logs in" classname="index" time="10.15" assertions="5">
 
     
 
@@ -20,7 +20,7 @@
     
     </testcase>
   
-    <testcase name="Verify User successfully logs in" classname="index" time="10.36" assertions="1">  <failure message="Timed out while waiting for element &lt;//spn[contains(@class,'')]&gt; to be present for 10000 milliseconds.">    at Object.clickElement (C:/Users/dsood/Documents/Verizon/commands/clickElement.js:3:6)</failure>
+    <testcase name="Verify User successfully logs in" classname="index" time="10.53" assertions="1">  <failure message="Timed out while waiting for element &lt;//spn[contains(@class,'')]&gt; to be present for 10000 milliseconds.">    at Object.clickElement (C:/Users/dsood/Documents/Verizon/commands/clickElement.js:3:6)</failure>
 
     
     </testcase>

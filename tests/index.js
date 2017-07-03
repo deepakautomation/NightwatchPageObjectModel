@@ -1,4 +1,5 @@
 var data = require('../data/testdata.json')
+var logger = require('../logs/log.js')
 
 
 module.exports = {
@@ -11,10 +12,12 @@ module.exports = {
       .verifySearchBtn()
       .clickLoginLink();
 
+ logger.log('info', 'filling in username and password');
     loginpage
       .getUsername(data.testdata.email)
       .getPassword(data.testdata.password)  
       .clickElement('@loginBtn')
+       logger.log('info', 'Entering the userpage');
    // 
   },
 

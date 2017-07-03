@@ -1,46 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="2"
+<testsuites errors="1"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="index"
-    errors="2" failures="0" hostname="" id="" package="index" skipped="0"
-    tests="2" time="0.04600" timestamp="Sat, 01 Jul 2017 07:02:13 GMT">
+    errors="1" failures="0" hostname="" id="" package="index" skipped="0"
+    tests="1" time="0.01500" timestamp="Mon, 03 Jul 2017 07:38:08 GMT">
   
-    <testcase name="User is successfully logs in" classname="index" time="0.03900" assertions="0">
-    </testcase>
-  
-    <testcase name="Verify User successfully logs in" classname="index" time="0.007000" assertions="0">
+    <testcase name="Demo test" classname="index" time="0.01500" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Index / User is successfully logs in]:
+        Error while running [Index / Demo test]:
 
-  TypeError: loginpage.getUsername(...).getPassword(...).clickElement is not a function
-    at Object.UserIsSuccessfullyLogsIn [as User is successfully logs in] (C:/Users/dsood/Documents/Verizon/tests/index.js:17:8)
-    at Module.call (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
-    at C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
-    at _fulfilled (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
-    at self.promiseDispatch.done (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
-    at Promise.promise.promiseDispatch (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
-    at C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
-    at runSingle (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
-    at flush (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)
-  Error while running [Index / Verify User successfully logs in]:
-
-  TypeError: userpage.clickElement is not a function
-    at Object.VerifyUserSuccessfullyLogsIn [as Verify User successfully logs in] (C:/Users/dsood/Documents/Verizon/tests/index.js:26:5)
-    at Module.call (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
-    at C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
-    at _fulfilled (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
-    at self.promiseDispatch.done (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
-    at Promise.promise.promiseDispatch (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
-    at C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
-    at runSingle (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
-    at flush (C:\Users\dsood\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+  ReferenceError: $ is not defined
+    at Object.DemoTest [as Demo test] (C:/Users/dsood/Documents/Verizon/tests/index.js:44:7)
+    at Module.call (C:\Users\dsood\Documents\Verizon\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\dsood\Documents\Verizon\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:796:13)
+    at C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:137:13)
+    at flush (C:\Users\dsood\Documents\Verizon\node_modules\q\q.js:125:13)
     at _combinedTickCallback (internal/process/next_tick.js:73:7)
     </system-err>
   

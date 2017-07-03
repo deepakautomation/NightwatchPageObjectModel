@@ -1,160 +1,100 @@
-10:31:56.948 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-10:31:56.948 INFO - Launching a standalone Selenium Server
-2017-07-03 10:31:56.964:INFO::main: Logging initialized @254ms to org.seleniumhq.jetty9.util.log.StdErrLog
-10:31:57.022 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:31:57.023 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+16:07:58.805 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+16:07:58.805 INFO - Launching a standalone Selenium Server
+2017-07-03 16:07:58.836:INFO::main: Logging initialized @255ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:07:58.905 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:07:58.905 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-10:31:57.023 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-10:31:57.023 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-10:31:57.024 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+16:07:58.905 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:07:58.905 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:07:58.905 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-07-03 10:31:57.063:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-03 10:31:57.101:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-03 10:31:57.254:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:5555}
-2017-07-03 10:31:57.254:INFO:osjs.Server:main: Started @550ms
-10:31:57.254 INFO - Selenium Server is up and running
-10:31:59.671 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-10:31:59.709 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-10:31:59.709 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index 1, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-10:31:59.709 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index 1, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-10:31:59.709 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 42070
+2017-07-03 16:07:58.952:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-03 16:07:59.005:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-03 16:07:59.215:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:5555}
+2017-07-03 16:07:59.216:INFO:osjs.Server:main: Started @630ms
+16:07:59.216 INFO - Selenium Server is up and running
+16:08:01.244 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:08:01.268 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:08:01.276 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 21711
 Only local connections are allowed.
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 38352
-Only local connections are allowed.
-10:32:02.543 INFO - Detected dialect: OSS
-10:32:02.565 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index 1, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-10:32:02.579 INFO - Executing: [get: https://www.khanacademy.org/])
-10:32:02.579 INFO - Detected dialect: OSS
-10:32:02.594 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-10:32:02.626 INFO - Executing: [get: https://www.khanacademy.org/])
-10:32:04.974 INFO - Done: [get: https://www.khanacademy.org/]
-10:32:04.984 INFO - Executing: [find elements: By.xpath: //span[contains(@class,'Search')]])
-10:32:05.030 INFO - Done: [find elements: By.xpath: //span[contains(@class,'Search')]]
-10:32:05.039 INFO - Executing: [find elements: By.xpath: //a[contains(@class,'signUpLink')]])
-10:32:05.067 INFO - Done: [find elements: By.xpath: //a[contains(@class,'signUpLink')]]
-10:32:05.071 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@class,'signUpLink')]]])
-10:32:05.099 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@class,'signUpLink')]]]
-10:32:05.106 INFO - Executing: [find element: By.xpath: //a[contains(@class,'signUpLink')]])
-10:32:05.157 INFO - Done: [find element: By.xpath: //a[contains(@class,'signUpLink')]]
-10:32:05.161 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@class,'signUpLink')]]])
-10:32:06.060 INFO - Done: [get: https://www.khanacademy.org/]
-10:32:06.067 INFO - Executing: [find elements: By.xpath: //span[contains(@class,'Search')]])
-10:32:06.092 INFO - Done: [find elements: By.xpath: //span[contains(@class,'Search')]]
-10:32:06.281 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@class,'signUpLink')]]]
-10:32:06.291 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'email')]])
-10:32:06.469 INFO - Done: [find elements: By.xpath: //input[contains(@type,'email')]]
-10:32:06.475 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'email')]]])
-10:32:06.502 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'email')]]]
-10:32:06.504 INFO - Executing: [find element: By.xpath: //input[contains(@type,'email')]])
-10:32:06.535 INFO - Done: [find element: By.xpath: //input[contains(@type,'email')]]
-10:32:06.541 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]])
-10:32:06.600 INFO - Executing: [find elements: By.xpath: //span[contains(@class,'Search')]])
-10:32:06.706 INFO - Done: [find elements: By.xpath: //span[contains(@class,'Search')]]
-10:32:06.725 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]]
-10:32:06.730 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'password')]])
-10:32:06.753 INFO - Done: [find elements: By.xpath: //input[contains(@type,'password')]]
-10:32:06.757 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'password')]]])
-10:32:06.770 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'password')]]]
-10:32:06.784 INFO - Executing: [find element: By.xpath: //input[contains(@type,'password')]])
-10:32:06.809 INFO - Done: [find element: By.xpath: //input[contains(@type,'password')]]
-10:32:06.813 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]])
-10:32:07.092 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]]
-10:32:07.101 INFO - Executing: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:07.133 INFO - Done: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:07.137 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:07.158 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:07.158 INFO - Executing: [mousemove: 4 true])
-10:32:07.192 INFO - Done: [mousemove: 4 true]
-10:32:07.193 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:07.193 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:07.193 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]])
-10:32:07.209 INFO - Executing: [find elements: By.xpath: //span[contains(@class,'Search')]])
-10:32:07.209 INFO - Done: [find elements: By.xpath: //span[contains(@class,'Search')]]
-10:32:07.229 INFO - Executing: [find elements: By.xpath: //a[contains(@class,'signUpLink')]])
-10:32:07.250 INFO - Done: [find elements: By.xpath: //a[contains(@class,'signUpLink')]]
-10:32:07.250 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@class,'signUpLink')]]])
-10:32:07.291 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@class,'signUpLink')]]]
-10:32:07.296 INFO - Executing: [find element: By.xpath: //a[contains(@class,'signUpLink')]])
-10:32:07.299 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (f87a27b9bcf50f917f40cd52fb276a97)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]]
-10:32:07.323 INFO - Done: [find element: By.xpath: //a[contains(@class,'signUpLink')]]
-10:32:07.326 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@class,'signUpLink')]]])
-10:32:08.326 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:08.502 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@class,'signUpLink')]]]
-10:32:08.509 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'email')]])
-10:32:08.683 INFO - Done: [find elements: By.xpath: //input[contains(@type,'email')]]
-10:32:08.685 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'email')]]])
-10:32:08.711 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'email')]]]
-10:32:08.715 INFO - Executing: [find element: By.xpath: //input[contains(@type,'email')]])
-10:32:08.740 INFO - Done: [find element: By.xpath: //input[contains(@type,'email')]]
-10:32:08.744 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]])
-10:32:08.879 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]]
-10:32:08.883 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'password')]])
-10:32:08.908 INFO - Done: [find elements: By.xpath: //input[contains(@type,'password')]]
-10:32:08.912 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'password')]]])
-10:32:08.933 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'password')]]]
-10:32:08.937 INFO - Executing: [find element: By.xpath: //input[contains(@type,'password')]])
-10:32:08.958 INFO - Done: [find element: By.xpath: //input[contains(@type,'password')]]
-10:32:08.961 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]])
-10:32:09.028 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]]
-10:32:09.035 INFO - Executing: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:09.054 INFO - Done: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:09.057 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:09.078 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:09.083 INFO - Executing: [mousemove: 4 true])
-10:32:09.104 INFO - Done: [mousemove: 4 true]
-10:32:09.108 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
-10:32:09.291 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
-10:32:09.297 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]])
-10:32:09.360 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (b91077aa4251b498a4cab09c5261c7f6)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]]
-10:32:10.387 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:11.857 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:12.363 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:12.399 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:12.911 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:13.300 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:13.815 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:13.841 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:14.047 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:14.348 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:14.368 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:14.559 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:14.594 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:14.885 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:14.900 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:15.108 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:15.108 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:15.420 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:15.463 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:15.626 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:15.983 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:15.993 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:16.046 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:16.496 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:16.509 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:16.552 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:16.562 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:17.015 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:17.035 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:17.078 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:17.090 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:17.542 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:17.571 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:17.594 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:17.603 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:18.080 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:18.112 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:18.112 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:18.127 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:18.626 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:18.652 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:18.667 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:18.683 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:19.200 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:19.217 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:19.732 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:19.754 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:20.288 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:20.307 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
-10:32:20.810 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
-10:32:20.824 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:03.883 INFO - Detected dialect: OSS
+16:08:03.899 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=C:\Users\dsood\Documents\Verizon\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe, name=Index, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:08:03.930 INFO - Executing: [get: https://www.khanacademy.org/])
+16:08:07.961 INFO - Done: [get: https://www.khanacademy.org/]
+16:08:07.971 INFO - Executing: [find elements: By.xpath: //span[contains(@class,'Search')]])
+16:08:08.003 INFO - Done: [find elements: By.xpath: //span[contains(@class,'Search')]]
+16:08:08.003 INFO - Executing: [find elements: By.xpath: //a[contains(@class,'signUpLink')]])
+16:08:08.035 INFO - Done: [find elements: By.xpath: //a[contains(@class,'signUpLink')]]
+16:08:08.035 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@class,'signUpLink')]]])
+16:08:08.050 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@class,'signUpLink')]]]
+16:08:08.066 INFO - Executing: [find element: By.xpath: //a[contains(@class,'signUpLink')]])
+16:08:08.089 INFO - Done: [find element: By.xpath: //a[contains(@class,'signUpLink')]]
+16:08:08.093 INFO - Executing: [click: 1 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@class,'signUpLink')]]])
+16:08:09.516 INFO - Done: [click: 1 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@class,'signUpLink')]]]
+16:08:09.529 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'email')]])
+16:08:09.636 INFO - Done: [find elements: By.xpath: //input[contains(@type,'email')]]
+16:08:09.636 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'email')]]])
+16:08:09.707 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'email')]]]
+16:08:09.711 INFO - Executing: [find element: By.xpath: //input[contains(@type,'email')]])
+16:08:09.736 INFO - Done: [find element: By.xpath: //input[contains(@type,'email')]]
+16:08:09.739 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]])
+16:08:09.879 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'email')]], [d, e, e, p, s, 0, 7, s, a, g, i, @, g, m, a, i, l, ., c, o, m]]
+16:08:09.883 INFO - Executing: [find elements: By.xpath: //input[contains(@type,'password')]])
+16:08:09.903 INFO - Done: [find elements: By.xpath: //input[contains(@type,'password')]]
+16:08:09.907 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'password')]]])
+16:08:09.926 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'password')]]]
+16:08:09.930 INFO - Executing: [find element: By.xpath: //input[contains(@type,'password')]])
+16:08:09.950 INFO - Done: [find element: By.xpath: //input[contains(@type,'password')]]
+16:08:09.953 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]])
+16:08:10.032 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //input[contains(@type,'password')]], [p, a, s, s, w, 0, r, d, #]]
+16:08:10.043 INFO - Executing: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
+16:08:10.070 INFO - Done: [find elements: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
+16:08:10.075 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
+16:08:10.098 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
+16:08:10.099 INFO - Executing: [mousemove: 4 true])
+16:08:10.115 INFO - Done: [mousemove: 4 true]
+16:08:10.115 INFO - Executing: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']])
+16:08:10.130 INFO - Done: [find element: By.xpath: //a[contains(@role,'button')][text()='Sign in']]
+16:08:10.130 INFO - Executing: [click: 4 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]])
+16:08:10.191 INFO - Done: [click: 4 [[ChromeDriver: chrome on XP (cb215faafa2c01cc35bb8eb56f2c7c97)] -> xpath: //a[contains(@role,'button')][text()='Sign in']]]
+16:08:11.241 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:11.265 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:11.803 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:11.872 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:12.382 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:12.435 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:12.951 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:12.982 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:13.505 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:13.536 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:14.055 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:14.086 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:14.608 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:14.639 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:15.172 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:15.187 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:15.710 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:15.754 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:16.264 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:16.312 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:16.830 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:16.877 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:17.396 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:17.434 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:17.949 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:17.949 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:18.466 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:18.519 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:19.035 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:19.051 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:19.568 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:19.584 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:20.100 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:20.116 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:20.622 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:20.654 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:21.170 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:21.186 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]
+16:08:21.715 INFO - Executing: [find elements: By.xpath: //spn[contains(@class,'')]])
+16:08:21.724 INFO - Done: [find elements: By.xpath: //spn[contains(@class,'')]]

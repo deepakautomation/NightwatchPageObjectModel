@@ -33,6 +33,7 @@
     "phantomjs-prebuilt": "^2.1.14",
     "request": "^2.79.0",
     "selenium-server": "^3.4.0",
-    "tap-nyan": "^1.1.0"
+    "tap-nyan": "^1.1.0",
+    "winston": "^2.3.1"
   }
 }
